@@ -1,0 +1,94 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.content {
+  padding: 0 0.938rem;
+  margin: 0 auto;
+  min-width: 37.5rem;
+  width: 60%;
+}
+
+/* Navigation Section */
+}
+}
+.top-navigation {
+  background-color: #fff;
+  border-bottom: 1px solid #DDD;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.top-navigation > .content {
+  height: 4.375rem;
+}
+
+.top-navigation .links {
+  float: right;
+  color: #838994;
+  font-size: 1.04rem;
+  margin-top: 1.7rem;
+}
+.links {
+  list-style: none;
+}
+.top-navigation .links li{
+  display: inline-block;
+  margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+element.style {
+}
+.top-navigation .logo {
+  height: 4.375rem;
+}
+element.style {
+}
+
+.introduction {
+    background-image: url('../Images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    overflow: auto;
+  }
+  .introduction h1,
+  .introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight:300;
+  }
+  .introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.56rem;
+  }
+
+  /**
+   * button
+   */
+    .big-button {
+    width: 9.688rem;
+    background-color: #fa7705;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    margin:0 auto;
+    display: block;
+  }
+   
