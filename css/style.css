@@ -169,13 +169,35 @@ element.style {
     color: black;
     text-align: center;
     display: center;
+    border-radius: 50%;
     
     }
 
-    .icons > li {
-      list-style: none;
+    .social .icons > li {
+      display: inline;
+      color: blue;
+      border-radius: 1.25rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      display: inline-block;
+      margin: 1.25rem 5px;
+      border: 1px solid #eaebec;
+      padding: 0.625rem 0;
+      text-align: center;
 
     }
+
+    .copyright {
+      color: #bbb;
+      font-size 14px;
+      
+    }
+
+   hr {
+    border-width: 1px;
+    border-color: #F9F9F9;
+   }
+
 
 
 
